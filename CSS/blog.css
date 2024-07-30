@@ -1,0 +1,52 @@
+
+#ImgBanner{
+    background-image: url('../IMG/banner/b19.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;  
+}
+#ImgBanner .BannerText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+#ImgBanner .BannerText p{
+    padding-left: 150px;
+    color: rgba(247, 247, 247, 0.89);
+}
+#ImgBanner h2, p{
+    color: rgba(247, 247, 247, 0.89);
+}
+#blog{
+    padding: 50px 100px 0 150px;
+}
+#blog .title{
+    text-align: center;
+    padding: 10px 0 40px 0;
+    text-decoration: underline;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blog .blog-details{
+    width: 50%;
+}
+
+.blog-detalis h4 ,
+p{
+   width: 90%;
+}

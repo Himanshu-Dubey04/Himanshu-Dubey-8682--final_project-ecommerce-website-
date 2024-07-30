@@ -1,0 +1,78 @@
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+
+#cart table tbody td input{
+    text-align: center;
+    padding: 5px 5px;
+    width: 100px;
+}
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+    width: auto;
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table thead tr th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cart table tbody tr td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cart table tbody td{
+    font-size: 15px;
+}
+#cart table tbody td button{
+    font-size: 15px;
+    padding: 8px 10px;
+    color: whitesmoke;
+    background-color: rgb(218, 61, 61);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#cart table tbody td button:hover{
+    color: whitesmoke;
+    background-color: rgb(182, 33, 33);
+}

@@ -1,0 +1,49 @@
+
+/* more details about products.... */
+#pro-details{
+    display: flex;
+    margin-top: 20px;
+  }
+  #pro-details .single-pro-img{
+    width: 40%;
+    margin-right: 50px;
+  }
+    /* all products description....  */
+  .single-pro-details{
+    margin-top: 20px;
+  }
+  #pro-details .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+  }
+  #pro-details .single-pro-details h4{
+    padding: 40px 0 20px 0;
+  }
+  #pro-details .single-pro-details h2{
+    font-size: 26px;
+  }
+  #pro-details .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  #pro-details .single-pro-details button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #088178;
+    color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.3s;
+  }
+  #pro-details .single-pro-details button:hover{
+    background-color: rgb(247, 3, 3);
+  }
+  #pro-details .single-pro-details span{
+    line-height: 25px;
+  }
+  
